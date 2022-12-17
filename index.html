@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./assets/fonst/fonts.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="darkMode">
+        <button>Dark</button>
+    </div>
+    <div id="root">
+        <div class="left-container">
+            <div class="bg-image">
+                <img src="./assets/bg-main-desktop.png" alt="...">
+            </div>
+            <div class="cards-image">
+                <div class="card-front">
+                    <img src="./assets/bg-card-front.png" alt="...">
+                    <div class="front-card_details">
+                        <div class="circle">
+                            <div class="white-circle"></div>
+                            <div class="transparent-circle"></div>
+                        </div>
+
+                        <div class="card-number_placeholder">
+                            <h1 id="cardNumber-Text">0000 0000 0000 0000</h1>
+                        </div>
+
+                        <div class="card-owner">
+                            <p class="owner-name" id="ownerName">owner name</p>
+                            <p class="expire-date"><span id="DAY">00</span>/<span id="YEAR">00</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-back">
+                    <img src="./assets/bg-card-back.png" alt="...">
+                    <div class="back-card_details">
+                        <p class="cvv" id="CVVText">000</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right-container">
+            <form method="get" autocomplete="on" id="form" class="myForm">
+                    <!-- CardHolder Name -->
+                <div class="card_colder">
+                    <div class="CARDHOLDER-NAME title">cardholder name</div>
+                    <input type="text" id="cardHolderName" class="inputS" placeholder="Card Holder" >
+                    <div class="errorMessage" id="errorName">err</div>
+                </div>
+                    <!-- Card number -->
+                <div class="card_number">
+                    <div class="CARD-NUMBER title">card number</div>
+                    <input type="text"  id="cardNumber" autocomplete="off" maxlength="16"  class="inputS" placeholder="0000 0000 0000 0000">
+                    <div class="errorMessage" id="errorNumber">err</div>
+                </div>
+                <!-- Expire Date && CVV -->
+                <div class="exp_date-cvv">
+                    <div>
+                        <div class="EXPIRE-DATE title">exp. date (mm/yy)</div>
+                        <input type="text" placeholder="DD"  id="DD" autocomplete="off" maxlength="2"  class="inputS">
+                        <input type="text" placeholder="YY"  id="YY" autocomplete="off" maxlength="6"  class="inputS">
+                        <div class="errorMessage" id="errorYY_DD">err</div>
+                    </div>
+                    <div>
+                        <div class="CARD-NUMBER title">cvv</div>
+                        <input type="text" placeholder="e.g 123" id="CVV" autocomplete="off" maxlength="3"  class="inputS">
+                        <div class="errorMessage" id="errorCVV">err</div>
+                    </div>
+                </div>
+                <div class="confirm">
+                    <button type="submit">confirm</button>
+                </div>
+            </form>
+            <div id="completed">
+                <div class="completedTitle">
+                    <p class="toCart" style="cursor: pointer;">Go Back</p>
+                    <h1>Completed</h1>
+                    <div class="img_container">
+                        <div><img src="./assets/icon-complete.svg" alt="..."></div>
+                    </div>
+                </div>
+                <div class="icon"></div>
+            </div>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
