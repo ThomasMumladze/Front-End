@@ -20,7 +20,7 @@ export class Theme {
         if (this.currentTheme === "DARK") {
             id.style.backgroundColor = "#222"
         } else {
-            id.style.backgroundColor = '#f7f7f8'
+            id.style.backgroundColor = '#FFF'
         }
     }
 
@@ -31,6 +31,33 @@ export class Theme {
             multipleItem.forEach(item => item.classList.remove('default_background'))
         }
     }
+
+    toggleBgBlue(element) {
+        if (this.currentTheme === "DARK") {
+            element.classList.add('filter_background')
+        } else {
+            element.classList.remove('filter_background')
+        }
+    }
+
+    toggleBgBlueMultiple(multipleItem) {
+        if (this.currentTheme === "DARK") {
+            multipleItem.forEach(item => item.classList.add('filter_background'))
+        } else {
+            multipleItem.forEach(item => item.classList.remove('filter_background'))
+        }
+    }
+
+    displayRemover(item_1 , item_2){
+        if(this.currentTheme === 'DARK'){
+            item_1.style.display = 'none'
+            item_2.style.display = 'block'
+        }else{
+            item_1.style.display = 'block'
+            item_2.style.display = 'none'
+        }
+    }
+
 }
 
 
