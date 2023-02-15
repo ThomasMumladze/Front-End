@@ -7,7 +7,7 @@
 
 
 
-# IDE - VSCode
+# IDE - VSCodee
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json

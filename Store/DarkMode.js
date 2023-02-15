@@ -48,11 +48,11 @@ export class Theme {
         }
     }
 
-    displayRemover(item_1 , item_2){
-        if(this.currentTheme === 'DARK'){
+    displayRemover(item_1, item_2) {
+        if (this.currentTheme === 'DARK') {
             item_1.style.display = 'none'
             item_2.style.display = 'block'
-        }else{
+        } else {
             item_1.style.display = 'block'
             item_2.style.display = 'none'
         }
