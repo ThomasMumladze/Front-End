@@ -1,0 +1,11 @@
+.default_background .menu_link{
+    color: #FFF;
+}
+.default_background  a{
+    color: #FFF;
+}
+
+.default_background{
+    background-color: #222;
+    color: #FFF;
+}
