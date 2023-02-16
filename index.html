@@ -3,12 +3,13 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="./index.css">
-    <link rel="stylesheet" href="./assets/font/font.css">
-    <link rel="stylesheet" href="./darkmode.css">
+    <link rel="stylesheet" href="./global.css"> <!-- Global Style-->
+    <link rel="stylesheet" href="./index.css"> <!-- Main Style -->
+    <link rel="stylesheet" href="./assets/font/font.css"> <!-- Imported Font -->
+    <link rel="stylesheet" href="./darkmode.css"> <!-- Dark Mode -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
 </head>
 
 <body>
@@ -48,12 +49,12 @@
         <section id="personalInformation">
             <div class="section_body">
                 <div class="sectionDataWrapper">
-                    <div class="textWrapper">
+                    <div class="about_infromation">
                         <div class="jobTitle">
                             <img src="./assets/images/coding.png" alt="">
                             <p>Front-End Developer</p>
                         </div>
-                        <div class="developerName TITLE_WRAPPER">
+                        <div class="userName TITLE_WRAPPER">
                             <h2>Thomas Mumladze</h2>
                         </div>
                         <div class="aboutInfo">
@@ -63,12 +64,12 @@
                                 voluptatum, voluptatibus ad blanditiis enim nesciunt similique ab error molestiae. Neque
                             </p>
                         </div>
-                        <div class="developerSkill">
-                            <div class="devSkillsTitle TITLE_WRAPPER">
+                        <div class="skill_tree">
+                            <div class="skill_tree-title TITLE_WRAPPER">
                                 <img src="./assets/images/code.png" alt="...">
                                 <p>Skills</p>
                             </div>
-                            <div class="skillList">
+                            <div class="skill_OL_list">
                                 <div class="markUpStyling">
                                     <div class="connectingPoint"></div>
                                     <div class="topLine"></div>
@@ -155,9 +156,11 @@
                 </div>
             </div>
         </section>
-        <div style="width:100%; height: 1600px;"></div>
+
     </main>
-    <script type="module"  src="index.js"></script>
+    <script type="module" src="index.js"></script>
+    
+    <script type="module" src="./scrollEvent.js"></script>
 </body>
 
 </html>
