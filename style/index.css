@@ -1,4 +1,4 @@
-/* *header */
+/* !HEADER  */
 #header {
     width: 100%;
     height: max-content;
@@ -21,14 +21,22 @@
     padding: 6px 36px;
 }
 .leftContainer{
-
+    width: max-content;
+    height: max-content;
+}
+.leftContainer h1{
+    font-family: 'Raleway';
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: 600;
 }
 .rightContainer{
     display: flex;
     align-items: center;
     position: relative;
+    padding: 16px 0;
 }
-/* !navigation */
+/* *navigation */
 .nav_menu{
     width: max-content;
     height: max-content;
@@ -42,7 +50,8 @@
     align-items: center;
 }
 .menu_list .menu_link{
-    /*  */
+    font-size: 1.1em;
+    transition: .3s ease-in-out;
 }
 .menu_list svg{
     margin: 0 8px;
@@ -52,7 +61,7 @@
 .menu_list:last-child:hover svg{
     transform: rotate(0deg);
 }
-/* !Burger Menu */
+/* *Burger Menu */
 .menu_list .sub_menu{
     transform: translate(-20px , 0);
     visibility: hidden;
@@ -63,19 +72,23 @@
     top: 100%;
 }
 .sub_menu .sub_menu_list{
-    background-color: #FFF;
+    background-color: #f7f7f8;
     border-left: solid 1px #CCC;
     padding: 6px;
-    margin: 6px 0;
-    min-width: 126px;
+    margin: 4px 0;
+    min-width: 136px;
     transition: .3s ease-in-out;
 }
 .sub_menu_list .sub_menu_link{
     transition: .3s ease-in-out;
+    font-family: 'RobotoSlab-Medium';
+    font-size: .8em;
+    font-weight: 100;
 }
 .sub_menu_list:hover .sub_menu_link{
     padding-left: 6px;
     color: dodgerblue;
+    
 }
 
 .nav_menu .menu_list:last-child:hover .sub_menu{
@@ -83,4 +96,20 @@
     opacity: 1;
     pointer-events: all;
     transform: translate(0px , 0px);
+}
+/* *Dark Mode Buttons */
+.darkModeButton{
+    width: max-content;
+    height: max-content;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin-left: 35px;
+}
+.darkModeButton img{
+    width: 26px;
+    height: 26px;
+}
+.darkModeButton img:last-child{
+    display: none;
 }
