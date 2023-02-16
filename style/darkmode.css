@@ -1,0 +1,11 @@
+.LIST_WRAPPER ul li , .LIST_WRAPPER ol li{
+    background-color: #222 !important;
+}
+
+.menu_list .a_hrefColor__{
+    color: #FFF;
+}
+
+.devSkillList .a_hrefColor__{
+    color: dodgerblue;
+}
