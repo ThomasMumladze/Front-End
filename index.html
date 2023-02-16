@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./style/global.css"> <!-- Global Style-->
     <link rel="stylesheet" href="./style/index.css"> <!-- Main Style -->
+    <link rel="stylesheet" href="./style/animation.css"> <!-- Animation css-->
     <link rel="stylesheet" href="./style/darkmode.css"> <!-- Dark Mode -->
     <link rel="stylesheet" href="./assets/font/font.css"> <!-- Imported Font -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,24 +16,29 @@
 <body>
     <header id="header">
         <div class="headerBody">
-            <div class="wrapper">
+            <div class="headerWrapper">
                 <div class="leftContainer">
                     <h1>Front - End Developer</h1>
                 </div>
-                <div class="rightContainer"
-                    style="position: relative; display: flex; align-items: center; justify-content: space-between;">
+                <div class="rightContainer">
                     <nav id="nav">
                         <ul class="nav_menu">
                             <li class="menu_list"><a href="#" class="menu_link">Photoshop</a></li>
                             <li class="menu_list"><a href="#" class="menu_link">Video&Editing</a></li>
                             <li class="menu_list">
                                 <a href="#" class="menu_link">Development</a>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                                </svg>
                                 <ul class="sub_menu">
                                     <li class="sub_menu_list"><a href="#" class="sub_menu_link">Front-End</a></li>
                                     <li class="sub_menu_list"><a href="#" class="sub_menu_link">Html,Css</a></li>
                                     <li class="sub_menu_list"><a href="#" class="sub_menu_link">JavaScript</a></li>
                                     <li class="sub_menu_list"><a href="#" class="sub_menu_link">React</a></li>
-                                    <li class="sub_menu_list"><a href="#" class="sub_menu_link">C# .Net</a></li>
+                                    <li class="sub_menu_list"><a href="#" class="sub_menu_link">Python</a></li>
+                                    <li class="sub_menu_list"><a href="#" class="sub_menu_link">Django</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -159,8 +165,6 @@
 
     </main>
     <script type="module" src="index.js"></script>
-    
-    <script type="module" src="./scrollEvent.js"></script>
 </body>
 
 </html>
