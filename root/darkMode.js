@@ -47,6 +47,16 @@ export class Theme {
             className.forEach(item => item.classList.remove('defaulTBackground'))
         }
     }
+    
+    backgroundRemover(item_1 , item_2){
+        if(this.currentTheme === 'dark'){
+            item_1.style.display = 'none'
+            item_2.style.display = 'block'
+        }else{
+            item_1.style.display = 'block'
+            item_2.style.display = 'none'
+        }
+    }
 }
 
 

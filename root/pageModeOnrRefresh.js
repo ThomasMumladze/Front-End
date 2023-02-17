@@ -39,3 +39,13 @@ export const onRefresh_defaultBackground = (THEME, className) => {
         className.forEach(item => item.classList.remove('defaulTBackground'))
     }
 }
+
+export const onRefresh_bgRemover = (THEME, item_1, item_2) => {
+    if (THEME === 'dark') {
+        item_1.style.display = 'none'
+        item_2.style.display = 'block'
+    } else {
+        item_1.style.display = 'block'
+        item_2.style.display = 'none'
+    }
+}
