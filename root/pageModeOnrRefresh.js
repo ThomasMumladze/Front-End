@@ -31,3 +31,11 @@ export const onRefresh_html_LIST_wrapperBgChange = (THEME, listWrapper) => {
         listWrapper.forEach(item => item.classList.remove('LIST_WRAPPER'))
     }
 }
+
+export const onRefresh_defaultBackground = (THEME, className) => {
+    if (THEME === 'dark') {
+        className.forEach(item => item.classList.add('defaulTBackground'))
+    } else {
+        className.forEach(item => item.classList.remove('defaulTBackground'))
+    }
+}

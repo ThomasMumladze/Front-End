@@ -167,6 +167,9 @@
     font-size: .8em;
     margin: 2px 0 6px 0;
 }
+.userName  h2{
+    font-weight: 100;
+}
 
 /* * SKILL TREE STYLE */
 .skill_tree{
@@ -184,7 +187,7 @@
     height: 24px;
 }.skill_tree-title p{
     font-family: 'Merriweather';
-    font-weight: 900;
+    font-weight: 300;
     padding: 0 6px;
 }
 .skill_tree .LIST_TREE{

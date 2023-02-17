@@ -40,6 +40,13 @@ export class Theme {
         }
     }
 
+    defaultBG(className){
+        if (this.currentTheme === 'dark') {
+            className.forEach(item => item.classList.add('defaulTBackground'))
+        } else {
+            className.forEach(item => item.classList.remove('defaulTBackground'))
+        }
+    }
 }
 
 
