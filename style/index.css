@@ -4,6 +4,8 @@
     height: max-content;
     background-color: #fff;
     border-bottom: solid 1px #CCC;
+    position: fixed;
+    z-index: 19;
 }
 .headerBody {
     width: 100%;
@@ -72,7 +74,7 @@
     top: 100%;
 }
 .sub_menu .sub_menu_list{
-    background-color: #f7f7f8;
+    background-color: #FFF;
     border-left: solid 1px #CCC;
     padding: 6px;
     margin: 4px 0;
@@ -112,4 +114,100 @@
 }
 .darkModeButton img:last-child{
     display: none;
+}
+
+/* !SECTION personalInformation */
+#personalInformation{
+    width: 100%;
+    height: 100%;
+    padding: 155px 0 55px 0;
+}
+.section_body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}
+.about_information__WRAPPER{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    padding: 0 36px;
+}
+
+/* *about_information */
+.about_information{
+    max-width: 556px;
+}
+.jobTitle{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}.jobTitle img{
+    width: 63px;
+    height: 63px;
+}.jobTitle p{
+    font-family: 'RobotoSlab-VariableFont';
+    font-size: 1.4em;
+    margin: 5px 0;
+    font-weight: 400;
+}
+.TITLE_WRAPPER{
+    background-color: #fff;
+}
+.userName{
+    padding: 6px;
+    font-family: 'Merriweather';
+    font-size: .8em;
+    margin: 2px 0 6px 0;
+}
+
+/* * SKILL TREE STYLE */
+.skill_tree{
+    width: 100%;
+    height: 100%;
+}
+.skill_tree-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    margin: 6px 0;
+}.skill_tree-title img{
+    width: 24px;
+    height: 24px;
+}.skill_tree-title p{
+    font-family: 'Merriweather';
+    font-weight: 900;
+    padding: 0 6px;
+}
+.skill_tree .LIST_TREE{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+.LIST_TREE p{
+    font-family: 'Merriweather';
+    font-size: .8em;
+    padding: 5px 0;
+}
+.LIST_TREE li {
+    min-width: 126px;
+    margin: 4px 0 4px 0;
+    background-color: #fff;
+    padding: 4px 16px 4px 9px;
+    border-left: solid 1px #bfbfbf;
+}.LIST_TREE li a{
+    font-weight: 500;
+    font-family: 'RobotoSlab-Medium';
+    font-size: .8em;
+    cursor: default;
 }
