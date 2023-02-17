@@ -5,7 +5,7 @@ export class Theme {
 
     toggleChanges() {
         if (this.currentTheme === 'dark') {
-            document.body.style.background = '#FFF'
+            document.body.style.background = '#f7f7f8'
             document.body.style.color = '#222'
             this.currentTheme = 'light'
         } else {
@@ -41,3 +41,5 @@ export class Theme {
     }
 
 }
+
+

@@ -3,7 +3,7 @@ export const onRefresh_toggleChanges = (THEME, body_bg, body_color) => {
         body_bg.style.background = '#343541'
         body_color.style.color = '#FFF'
     } else {
-        body_bg.style.background = '#FFF'
+        body_bg.style.background = '#f7f7f8'
         body_color.style.color = '#222'
     }
 }
