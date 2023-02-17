@@ -10,3 +10,7 @@
     font-family: 'RobotoSlab-VariableFont';
     src: url('./RobotoSlab-VariableFont_wght.ttf');
 }
+@font-face {
+    font-family: 'Merriweather';
+    src: url('./Merriweather-Regular.ttf');
+}
