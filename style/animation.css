@@ -125,42 +125,42 @@
     opacity: 1;
     pointer-events: all;
     animation: svgAnimate  .3s backwards;
-    animation-delay: .3s;
+    animation-delay: .2s;
 }
 .imageSocialMediaIconWrapper:hover .socialMedia svg:nth-child(1){
     visibility: visible;
     opacity: 1;
     pointer-events: all;
     animation: svgAnimate  .3s backwards;
-    animation-delay: .4s;
+    animation-delay: .3s;
 }
 .imageSocialMediaIconWrapper:hover .socialMedia svg:nth-child(2){
     visibility: visible;
     opacity: 1;
     pointer-events: all;
     animation: svgAnimate  .3s backwards;
-    animation-delay: .5s;
+    animation-delay: .4s;
 }
 .imageSocialMediaIconWrapper:hover .socialMedia svg:nth-child(3){
     visibility: visible;
     opacity: 1;
     pointer-events: all;
     animation: svgAnimate  .3s backwards;
-    animation-delay: .6s;
+    animation-delay: .5s;
 }
 .imageSocialMediaIconWrapper:hover .socialMedia svg:nth-child(4){
     visibility: visible;
     opacity: 1;
     pointer-events: all;
     animation: svgAnimate  .3s backwards;
-    animation-delay: .7s;
+    animation-delay: .6s;
 }
 .imageSocialMediaIconWrapper:hover .socialMedia svg:last-child{
     visibility: visible;
     opacity: 1;
     pointer-events: all;
     animation: svgAnimate  .3s backwards;
-    animation-delay: .8s;
+    animation-delay: .7s;
 }
 @keyframes svgAnimate {
     0%{

@@ -13,3 +13,13 @@
 .defaulTBackground{
     background-color: #222;
 }
+
+.LightEffect svg{
+    stroke: #CCC;
+    filter: drop-shadow(0px 0px 1px rgba(30, 143, 255, 0.6))
+    drop-shadow(0px 0px 3px rgba(30, 143, 255, 0.8))
+    drop-shadow(0px 0px 5px rgba(30, 143, 255, 0.7))
+    drop-shadow(0px 0px 10px rgba(30, 143, 255, 0.6))
+    drop-shadow(0px 0px 15px rgba(30, 143, 255, 0.5 ))
+    ;
+}

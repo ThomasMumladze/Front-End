@@ -57,6 +57,15 @@ export class Theme {
             item_2.style.display = 'none'
         }
     }
+    
+    svgGlowEffect (item){
+        if(this.currentTheme === 'dark'){
+            item.forEach(item =>  item.classList.add('LightEffect'))
+        }else{
+            item.forEach(item =>  item.classList.remove('LightEffect'))
+        }
+    }
+    
 }
 
 
