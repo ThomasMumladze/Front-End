@@ -54,6 +54,11 @@
 .menu_list .menu_link{
     font-size: 1.1em;
     transition: .3s ease-in-out;
+}.menu_list .menu_link:hover{
+    color: gray;
+}
+.menu_list .a_hrefColor__:hover{
+    color: dodgerblue;
 }
 .menu_list svg{
     margin: 0 8px;
@@ -330,3 +335,5 @@
 }.socialMedia svg:hover{
     fill: dodgerblue;
 }
+
+/* !SECTION */
