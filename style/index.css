@@ -141,7 +141,8 @@
 
 /* *about_information */
 .about_information{
-    max-width: 556px;
+    max-width: 576px;
+    margin-right: 25px;
 }
 .jobTitle{
     width: 100%;
@@ -160,6 +161,11 @@
 }
 .TITLE_WRAPPER{
     background-color: #fff;
+}
+.aboutInfo{
+    font-size: 0.8em;
+    line-height: 21px;
+    font-family: 'Raleway';
 }
 .userName{
     padding: 6px;
@@ -196,6 +202,55 @@
     display: flex;
     align-items: start;
     justify-content: space-between;
+}
+.markUpStyling , .programmingLanguage , .FrameWork{
+    position: relative;
+    width: max-content;
+    height: max-content;
+    padding: 8px 0 8px 10px;
+}
+/* *scroll Bar For Skill Tree */
+.skill_treeContent_scroll{
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    max-height: 317px;
+}
+.skill_treeContent_scroll::-webkit-scrollbar{
+    width: 1px;
+}
+.skill_treeContent_scroll::-webkit-scrollbar-track{
+    background-color: #CCC;
+}.skill_treeContent_scroll::-webkit-scrollbar-thumb{
+    background-color: dodgerblue;
+}
+.connectingPoint{
+    width: 1px;
+    height: 100%;
+    background-color: #CCC;
+    left: 0;
+    position: absolute;
+}.topLine{
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: #CCC;
+    left: 0;
+}.circle{
+    width: 8px;
+    height: 8px;
+    background-color: #CCC;
+    position: absolute;
+    left: -3px;
+    top: 5px;
+    border-radius: 50%;
+}.bottomLine{
+    position: absolute;
+    width: 25%;
+    height: 1px;
+    background-color: #CCC;
+    bottom: -9px;
+    left: 0;
 }
 .LIST_TREE p{
     font-family: 'Merriweather';
