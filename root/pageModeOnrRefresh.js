@@ -50,6 +50,7 @@ export const onRefresh_bgRemover = (THEME, item_1, item_2) => {
     }
 }
 
+// !GlOWING effect
 export const onRefresh_GlowingEffect = (THEME , item) => {
     if(THEME === 'dark'){
         item.forEach(item =>  item.classList.add('LightEffect'))
