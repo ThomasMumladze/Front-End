@@ -1,3 +1,4 @@
+// !BODY background & color Change
 export const onRefresh_toggleChanges = (THEME, body_bg, body_color) => {
     if (THEME === 'dark') {
         body_bg.style.background = '#343541'
@@ -8,6 +9,7 @@ export const onRefresh_toggleChanges = (THEME, body_bg, body_color) => {
     }
 }
 
+// !ID element background change
 export const onRefresh_bg_changeID_Element = (THEME, ID) => {
     if (THEME === 'dark') {
         ID.style.background = '#222'
@@ -15,7 +17,7 @@ export const onRefresh_bg_changeID_Element = (THEME, ID) => {
         ID.style.background = '#FFF'
     }
 }
-
+// !A HREF color change
 export const onRefresh_Html__linkColor = (THEME, a_href) => {
     if (THEME === 'dark') {
         a_href.forEach(item => item.classList.add('a_hrefColor__'))
@@ -24,6 +26,7 @@ export const onRefresh_Html__linkColor = (THEME, a_href) => {
     }
 }
 
+// !UL LI  && OL LI parent background change
 export const onRefresh_html_LIST_wrapperBgChange = (THEME, listWrapper) => {
     if (THEME === 'dark') {
         listWrapper.forEach(item => item.classList.add('LIST_WRAPPER'))
@@ -32,6 +35,7 @@ export const onRefresh_html_LIST_wrapperBgChange = (THEME, listWrapper) => {
     }
 }
 
+// !DEFAULT BACKGROUND
 export const onRefresh_defaultBackground = (THEME, className) => {
     if (THEME === 'dark') {
         className.forEach(item => item.classList.add('defaulTBackground'))
@@ -40,6 +44,7 @@ export const onRefresh_defaultBackground = (THEME, className) => {
     }
 }
 
+// !BACKGROUND remover
 export const onRefresh_bgRemover = (THEME, item_1, item_2) => {
     if (THEME === 'dark') {
         item_1.style.display = 'none'
