@@ -237,15 +237,18 @@
 }
 .imageSocialMediaIconWrapper .socialMedia{
     display: flex;
+    width: 103px;
+    height: 100%;
     align-items: start;
     flex-direction: column;
     position: absolute;
-    left: 105%;
-    visibility: hidden;
-    opacity: 0;
-    pointer-events: none;
+    left: 100%;
 }
 .socialMedia svg{
     cursor: pointer;
     margin-top: 20px;
+    transition: .3s ease-in-out;
+    transform: translate( 15px , 0);
+}.socialMedia svg:hover{
+    fill: dodgerblue;
 }
