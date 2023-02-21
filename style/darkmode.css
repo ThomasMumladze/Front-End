@@ -1,25 +1,31 @@
-.LIST_WRAPPER ul li , .LIST_WRAPPER ol li{
+.LIST_WRAPPER ul li,
+.LIST_WRAPPER ol li {
     background-color: #222 !important;
 }
 
-.menu_list .a_hrefColor__{
-    color: #FFF;
+.menu_list .a_hrefColor__ {
+    color: #fff;
 }
 
-.devSkillList .a_hrefColor__{
+.devSkillList .a_hrefColor__ {
     color: dodgerblue;
 }
 
-.defaulTBackground{
+.defaulTBackground {
     background-color: #222;
 }
 
-.LightEffect svg{
-    stroke: #CCC;
-    filter: drop-shadow(0px 0px 1px rgba(30, 143, 255, 0.6))
-    drop-shadow(0px 0px 3px rgba(30, 143, 255, 0.8))
-    drop-shadow(0px 0px 5px rgba(30, 143, 255, 0.7))
-    drop-shadow(0px 0px 10px rgba(30, 143, 255, 0.6))
-    drop-shadow(0px 0px 15px rgba(30, 143, 255, 0.5 ))
-    ;
+.imageSocialMediaIconWrapper .LightEffect svg {
+    stroke: #ccc;
+    filter: drop-shadow(0px 0px 1px rgba(30, 143, 255, 0.6)) drop-shadow(0px 0px 3px rgba(30, 143, 255, 0.8))
+        drop-shadow(0px 0px 5px rgba(30, 143, 255, 0.7)) drop-shadow(0px 0px 10px rgba(30, 143, 255, 0.6))
+        drop-shadow(0px 0px 15px rgba(30, 143, 255, 0.5));
+}
+
+/* *JAVASCRIPT PYTHON SECTION SVG GLOW EFFECT */
+.WRAPPER .LightEffect:hover svg {
+    stroke: #ccc;
+    filter: drop-shadow(0px 0px 1px rgba(30, 143, 255, 0.6)) drop-shadow(0px 0px 3px rgba(30, 143, 255, 0.8))
+        drop-shadow(0px 0px 5px rgba(30, 143, 255, 0.7)) drop-shadow(0px 0px 10px rgba(30, 143, 255, 0.6))
+        drop-shadow(0px 0px 15px rgba(30, 143, 255, 0.5));
 }
