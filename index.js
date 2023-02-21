@@ -1,4 +1,5 @@
 import { Theme } from "./root/darkMode.js"
+import { Slider } from "./root/slider.js"
 const THEME = new Theme()
 
 const header = document.getElementById('header')
@@ -39,3 +40,9 @@ onRefresh_html_LIST_wrapperBgChange(THEME.currentTheme, LIST_TREE)
 onRefresh_defaultBackground(THEME.currentTheme, TITLE_WRAPPER)
 onRefresh_bgRemover(THEME.currentTheme, darkModeImage, lightModeImage)
 onRefresh_GlowingEffect(THEME.currentTheme, lightEffect)
+
+
+
+    
+
+    
