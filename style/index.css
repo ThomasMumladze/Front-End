@@ -179,6 +179,7 @@
     font-family: "Merriweather";
     font-size: 0.8em;
     margin: 2px 0 6px 0;
+    border-left: solid 1px #CCC;
 }
 .userName h2 {
     font-weight: 100;
@@ -195,6 +196,7 @@
     justify-content: center;
     padding: 6px;
     margin: 6px 0;
+    border-left: solid 1px #CCC;
 }
 .skill_tree-title img {
     width: 24px;
@@ -392,6 +394,8 @@
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 15px;
+    border-left:solid 1px #CCC ;
+    border-right: solid 1px #CCC;
 }
 /* *SLIDER */
 .slider-container {
@@ -435,6 +439,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: 'RobotoSlab-VariableFont';
+    font-size: .8em;
 }
 .slider-controls {
     width: 100%;
