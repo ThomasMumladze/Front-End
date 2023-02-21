@@ -86,8 +86,7 @@
     margin: 4px 0;
     min-width: 136px;
     transition: 0.3s ease-in-out;
-}
-.sub_menu_list .sub_menu_link {
+}.sub_menu_list .sub_menu_link {
     transition: 0.3s ease-in-out;
     font-family: "RobotoSlab-Medium";
     font-size: 0.8em;
