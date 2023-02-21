@@ -1,8 +1,6 @@
 import { Theme } from "./root/darkMode.js"
-import { Slider } from "./root/slider.js"
 
 const THEME = new Theme() //DARk THEME+
-const SLIDER = new Slider() //Slider
 
 const header = document.getElementById('header')
 const document_body = document.body
@@ -44,17 +42,10 @@ onRefresh_bgRemover(THEME.currentTheme, darkModeImage, lightModeImage)
 onRefresh_GlowingEffect(THEME.currentTheme, lightEffect)
 
 
-// !SLIDER
-const slider_JS = document.querySelector('.JAVASCRIPT__ .slider')
-let prevBtn_JS = document.querySelector('.JAVASCRIPT__ .prevBtn').addEventListener('click', () => { SLIDER.prevSlider(slider_JS) })
-let nextBtn_JS = document.querySelector('.JAVASCRIPT__ .nextBtn').addEventListener('click', () => { SLIDER.nextSlider(slider_JS) })
-
-const slider_PY = document.querySelector('.PYTHON__ .slider')
-let prevBtn_PY = document.querySelector('.PYTHON__ .prevBtn').addEventListener('click', () => { SLIDER.prevSlider(slider_PY) })
-let nextBtn_PY = document.querySelector('.PYTHON__ .nextBtn').addEventListener('click', () => { SLIDER.nextSlider(slider_PY) })
 
 
-//! Scroll From Nav Menu To Project
+
+
 
 
 
